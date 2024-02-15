@@ -1,0 +1,322 @@
+body {     
+	font-family: inherit;
+	 }
+
+.mainbar-margin {
+	margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.logo {
+	font-size: 35px;
+	font-family: CookieRun Black;
+	text-decoration: none;
+	color: black;
+	margin-right: 15px ;
+}
+
+.mainbar-list a {
+	text-decoration: none;
+	color: dimgray;
+	font-size: 20px;
+	font-family: 메이플스토리;
+	margin: 10px;
+	padding: 10px;
+}
+
+a.mainbar-current {
+	color: black;
+	background-image: url(../images/black.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+a.mainbar-list-remains:hover {
+	color: blue;
+	background-image: url(../images/blue.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.mainbar-list {
+	float: right;
+	padding-left: 25px;
+	padding-top: 30px;
+}
+
+.mainbar-whitespace {
+	height: 40px;
+	display: flex;
+}
+
+.mainbar-sub {
+	margin: 35px auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	word-spacing: 5px;
+	position: absolute;
+	right: 30px;
+}
+
+.mainbar-sub a {
+	text-decoration: none;
+	color: black;
+}
+
+.mainbar-sub a:hover {
+	color: darkgray;
+}
+
+.flip {
+	font-size: 25px;
+}
+
+.flip:hover {
+	cursor: pointer;
+}
+
+div.panel,p.flip {
+	width: 557px;
+	height: 500px;
+	margin: 0 10% 0 10%;
+	padding: 5px;
+	text-align: center;
+	border: solid 1px #c3c3c3;
+	color: black;
+}
+
+p.flip{
+	background: darkgray;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 10px;
+}
+
+div.panel {
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 10px;
+	display: none;
+	background: lightgray;
+}
+
+.panel p{
+	font-size: 25px;
+	margin: auto;
+}
+
+.panel a{
+	color: black;
+	text-decoration: none;
+}
+
+td {
+	width: 600px;
+	height: 540px;
+	font-family: CookieRun Black;
+}
+
+
+.signal {
+	float: right;
+}
+
+.high {
+	width: 30px;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+
+.low {
+	width: 33px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.gradient-white-dimgray {
+        background: linear-gradient( to bottom, white, dimgray );
+}
+
+.gradient-white-lightgray {
+		background: linear-gradient( to bottom, white, lightgray );
+}
+
+.gradient-white-gray {
+		background: linear-gradient( to bottom, white, gray );
+}
+
+.today-upload {
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 10px;
+}
+
+.today-logo {
+	border-radius: 30px;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.today-logo p {
+	text-align: center;
+	font-size: 20px;
+	font-family: CookieRun Black;
+}
+
+.today-upload-music {
+	width: 60%; height: 500px;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+.today-upload p {
+	text-align: center;
+	font-family: 메이플스토리;
+}
+
+.today-upload a {
+	text-decoration: none;
+	color: black;
+}
+
+.today-upload a:hover {
+	color: blue;
+	font-size: 15px;
+}
+
+#auto {
+	overflow: scroll;
+	width: 40%;
+	height: 370px;
+	background: dimgray;
+	margin-left: 31%;
+	text-align: center;
+	color: white;
+}
+
+.box1 {
+	width: 100%;
+    height: 1200px;
+    margin-bottom: 10px;
+}
+
+.box2 {
+	width: 20%;
+	height: 40px;
+	margin-left: 40%;
+	margin-right: 40%;
+	padding-bottom: 25px; 
+}
+
+.box3 div {
+        width: 100%;
+        height: 80px;
+        border: 1px solid #bcbcbc;
+}
+
+.box4 {
+	width: 80%;
+	height: 650px;
+	margin-left: 10%;
+	margin-right: 10%; 
+}
+
+.box5 {
+	border-radius: 50px;
+	border-style: solid;
+	border-width: 5px;
+	width: 170px;
+	height: 70px;
+	float: right;
+}
+
+.box6 {
+	border-radius: 50px;
+	border-style: solid;
+	border-width: 4px;
+	width: 150px;
+	height: 60px;
+	float: right;
+}
+
+.box7 {
+	border-radius: 50px;
+	border-style: solid;
+	border-width: 3px;
+	width: 135px;
+	height: 58px;
+	float: right;
+}
+
+.box8 {
+	border-radius: 50px;
+	border-style: solid;
+	border-width: 2px;
+	width: 80px;
+	height: 23px;
+	float: right;
+}
+
+.recommend-rank {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	font-family: 메이플스토리;
+}
+
+.recommend-rank a:hover {
+	color: blue;
+}
+
+.box8 a {
+	font-size: 17px;
+	float: right;
+	text-decoration: none;
+	color: dimgray;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+.rank a {
+	float: right;
+	text-decoration: none;
+	color: dimgray;
+	margin-top: 13px;
+	margin-right: 13px;
+}
+
+.firstplace {
+	font-size: 40px;
+	font-weight: 800;	
+}
+
+.secondplace {
+	font-size: 35px;	
+	font-weight: 600;
+	margin-right: 0.5%;
+}
+
+.thirdplace {
+	font-size: 30px;
+	font-weight: 400;
+	margin-right: 1%;	
+}
+
+.remain {
+	font-size: 20px;
+	margin-right: 3%;
+}
+
+
+.underdeco {
+        background-image: url("../images/piano-keys-148602_1280.png");
+		background-repeat: repeat-x;
+		background-size: 200px 100%;
+}
+
+.end p {
+	float: right;
+	font-size: 10px;
+	font-family: inherit;
+}

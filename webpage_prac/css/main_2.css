@@ -1,0 +1,122 @@
+hr{
+	background-color:black;
+	color:black;
+	border-color:black;
+	height:2px;
+}
+
+#title {
+	background-color:black; 
+	text-align:center;
+}
+
+#title a{
+	color:white;
+	text-decoration:none
+}
+
+#title a:hover{
+	color:gray;
+}
+
+#title h1{
+	font-size:70px;
+}
+
+#title h2{	
+	font-size:45px;
+}
+
+#title h5{
+	font-size:40px;
+}
+
+#title:hover{
+	cursor:pointer;
+}
+
+#musiclist table{
+	margin:auto; 
+	background-color:white;
+	opacity:0.8;
+	width:85%;
+}
+
+#musiclist h5{
+	font-size:35px;
+	font-family:바탕;
+	text-align:center;
+	margin:0 auto;  
+	background-color:gray;
+}
+
+#musiclist a{
+	text-decoration:none;
+	color:black;
+	display:block; 
+	font-size:25px;
+	font-family:바탕;
+}
+
+#musiclist a:hover{
+	background-color:gray; 
+	color :white;
+}
+
+#lylics table{
+	background-color:#DCEBFF;
+    height:800px;
+	width:80%;
+	margin:auto; 
+	text-align:center;
+}
+
+#lylics h3{
+	background-color:gray;
+	width:400px;
+	margin:0 auto; 
+	font-size:30px;
+	text-align:center;
+	font-family:바탕;
+}
+
+#lylics td:hover{
+	background-color:black;
+	cursor:default; 
+	color:white;
+}
+
+#lylics td:active{
+	cursor:auto; 
+}
+
+#lylics th:hover{
+	cursor:default; 
+	color:white;
+}
+
+#lylics img{
+	float:center;
+}
+
+#ltlics a{
+	float:center;
+}
+
+#detail {
+	opacity:0.8;
+	font-size:13px;
+	margin-left:45%;
+	width:45%;
+}
+
+#detail h2{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+
+#detail p{
+	background-color:#E8F5FF;  
+	text-align:right;
+}
